@@ -52,11 +52,11 @@ This Node.js backend application stores users' emails and locations and automati
    EMAIL_PASS=your_email_password
 
 4. **Start the Server**:
-5. 
+ 
     ```bash
     npm start
 
-6. **API Endpoints**
+5. **API Endpoints**
 
     ```json
     {
