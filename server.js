@@ -41,7 +41,7 @@ app.listen(PORT, () => {
 });
 
 // Schedule weather reports every 3 hours
-cron.schedule("* * * * *", async () => {
+cron.schedule("0 */3 * * *", async () => {
   try {
     const users = await User.find();
     for (const user of users) {
