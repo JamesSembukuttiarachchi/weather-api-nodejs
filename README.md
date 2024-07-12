@@ -51,8 +51,6 @@ This Node.js backend application stores users' emails and locations and automati
    EMAIL_USER=your_email_user
    EMAIL_PASS=your_email_password
 
-   
-
 4. **Start the Server**:
     ```bash
     npm start
@@ -69,7 +67,7 @@ This Node.js backend application stores users' emails and locations and automati
       }
     }
 
-    ```json
+    
     {
       "latitude": 12.34,
       "longitude": 56.78
