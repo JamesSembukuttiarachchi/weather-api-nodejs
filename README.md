@@ -44,12 +44,12 @@ This Node.js backend application stores users' emails and locations and automati
 3. **Create a .env file in the root directory and add the following environment variables**
    ```text
    PORT=3000
-  MONGO_URI=your_mongodb_connection_string
-  JWT_SECRET=your_jwt_secret
-  OPENWEATHERMAP_API_KEY=your_openweathermap_api_key
-  EMAIL_SERVICE=your_email_service
-  EMAIL_USER=your_email_user
-  EMAIL_PASS=your_email_password
+   MONGO_URI=your_mongodb_connection_string
+   JWT_SECRET=your_jwt_secret
+   OPENWEATHERMAP_API_KEY=your_openweathermap_api_key
+   EMAIL_SERVICE=your_email_service
+   EMAIL_USER=your_email_user
+   EMAIL_PASS=your_email_password
 
    
 
