@@ -40,7 +40,7 @@ app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
 
-// Schedule weather reports every 3 hours
+// Schedule weather reports every 3 hours  "0 */3 * * *"
 cron.schedule("0 */3 * * *", async () => {
   try {
     const users = await User.find();
